@@ -12,6 +12,8 @@ Orders: Records of customer orders, including order dates, order statuses, and s
 Order Details: Specific details about the products ordered in each order, such as quantities, unit prices, and discounts.
 
 Suppliers: Information about the suppliers that provide the company with its products, including contact information.
+
+Here is the entity relationship diagram (ERD) for this dataset
 <p align="center">
   <img width=60% height=60%" src="ERD.png">
 
