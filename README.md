@@ -16,4 +16,7 @@ Suppliers: Information about the suppliers that provide the company with its pro
 # Hypothesis Testing
 The purpose of this project is to analysis the revenue of Northwind by asking 4 important questions and answering them via hypothesis testing. These 4 questions are -
 
-1. 
+1. What kinds of product/categories that had the highest revenue?
+2. In which region/country that the company has the hight revenue?
+3. How did the revenue change through 3 years?
+4. Who has the best performance in the company?
