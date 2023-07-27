@@ -15,6 +15,19 @@ add Revenue float
 update [Order Details]
 set Revenue = Round(((Quantity * UnitPrice) - (UnitPrice*Discount)), 2)
 
+Discount	Total_revenue
+0.01	29.85
+0.02	60.26
+0.06	65.96
+0.04	77.76
+0.03	122.43
+0.1	101230.26
+0.15	102407.38
+0.2	110718.81
+0.25	130831.96
+0.05	155101.93
+0	750698.61
+	
 -- analyze product according to Revenue and Numbers of orders
 select c.ProductName, c.ProductID,
 		SUM(b.Revenue) AS Total_revenue,
